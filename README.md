@@ -20,7 +20,7 @@ By completing this project, you will:
 ## 📂 Deliverables
 Each student must submit:
 
-1. ✅ A **PDF report** named `SOFTDSNL_Midterms_Surnames.pdf` that includes:
+1. ✅ A **PDF report** named `SOFTDSNL_Activity6_Surnames.pdf` that includes:
    - Screenshots of model training results (accuracy/loss curves).
    - Screenshots of **10 Postman test cases** (1 image per category).
    - A **link to your GitHub repository fork** containing your code.
