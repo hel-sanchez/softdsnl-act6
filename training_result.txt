@@ -1,0 +1,29 @@
+(.venv) PS C:\Users\AI LAB 32\Documents\SOFTDSNL\softdsnl-act6> python train_model.py
+Training directory: data/training_set
+Testing directory: data/testing_set
+Found 16000 images belonging to 2 classes.
+Number of training samples: 16000
+Training classes: {'Cat': 0, 'Dog': 1}
+Found 3999 images belonging to 2 classes.
+Number of validation samples: 3999
+Model compiled.
+Starting training...
+Epoch 1/5
+C:\Users\AI LAB 32\Documents\SOFTDSNL\softdsnl-act6\.venv\lib\site-packages\PIL\TiffImagePlugin.py:950: UserWarning: Truncated File Read
+  warnings.warn(str(msg))
+500/500 - 37s - loss: 0.6277 - accuracy: 0.6490 - val_loss: 0.5485 - val_accuracy: 0.7217 - 37s/epoch - 73ms/step
+Epoch 2/5
+500/500 - 35s - loss: 0.5084 - accuracy: 0.7519 - val_loss: 0.5367 - val_accuracy: 0.7239 - 35s/epoch - 70ms/step
+Epoch 3/5
+500/500 - 35s - loss: 0.4526 - accuracy: 0.7899 - val_loss: 0.4803 - val_accuracy: 0.7649 - 35s/epoch - 71ms/step
+Epoch 4/5
+500/500 - 35s - loss: 0.3907 - accuracy: 0.8240 - val_loss: 0.4606 - val_accuracy: 0.7787 - 35s/epoch - 70ms/step
+Epoch 5/5
+500/500 - 35s - loss: 0.3216 - accuracy: 0.8604 - val_loss: 0.5045 - val_accuracy: 0.7717 - 35s/epoch - 71ms/step
+Training finished.
+Model saved as kaggle_cnn_model.h5
+Found 4999 images belonging to 2 classes.
+Number of test samples: 4999
+Evaluating on test set...
+157/157 [==============================] - 4s 27ms/step - loss: 0.5021 - accuracy: 0.7718
+Test accuracy: 0.7718, Test loss: 0.5021
