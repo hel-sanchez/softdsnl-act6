@@ -19,6 +19,7 @@ By completing this project, you will:
 
 ## File Structure
 
+```
 kaggle_image_classification/
 │── requirements.txt
 │── README.md
@@ -27,6 +28,7 @@ kaggle_image_classification/
 │── data/              # extracted dataset from Kaggle
 │── my_test_images/    # your own test images for predictions
 │── ml_api_project/    # Django project folder
+```
 
 ---
 
